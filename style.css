@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/* :root {
+    --primary-color: ;
+    --white-color: FFFFFF;
+    --light-color: E5E5E5;
+    --dark-color: 212832;
+    --warning-color: F1A501;
+    --warning-color: 3A556A;
+    --warning-color: 029BC5;
+    --black-color: D5D6DB;
+    --warning-color: DF6951;
+    --warning-color: E1E6E9;
+    --warning-color: 5E6282;
+    --yellow-color: FFF1DA;
+    --font-family: Poppins;
+    --font-family: Ubuntu;
+
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+ul li {
+    list-style: none;
+    padding-top: 2%;
+}
+
+ul {
+    display: flex;
+    gap: 70px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 19px;
+}
+
+.container {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    font-weight: 490;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar h2 {
+    color: 000000;
+    padding-top: 4px;
+    font-size: 40px;
+}
+
+#Sign {
+    border: 1px solid black;
+    padding: 6px 12px;
+    border-radius: 4px;
+}
+ 
+li a:hover {
+    text-decoration: underline;
+color: springgreen;
+}
+
+img {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    z-index: -1;
+}
