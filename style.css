@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 /* :root {
     --primary-color: ;
     --white-color: FFFFFF;
@@ -66,15 +67,134 @@ a {
     padding: 6px 12px;
     border-radius: 4px;
 }
- 
+
 li a:hover {
     text-decoration: underline;
-color: springgreen;
+    color: cadetblue
 }
 
 img {
-    position: absolute;
+    /* position: absolute; */
     top: 0%;
     right: 0%;
     z-index: -1;
 }
+
+.main {
+    padding-left: 6%;
+    padding-top: 8%;
+    display: flex;
+    align-items: center;
+}
+
+
+.content h3 {
+    color: #DF6951;
+    font-size: 24px;
+    line-height: 5rem;
+}
+
+.content h1 {
+    font-size: 84px;
+    font-weight: bold;
+    font-family: Volkhov;
+    line-height: 6rem;
+    color: #181E4B;
+}
+
+.content p {
+    color: #5E6282;
+    font-family: poppins;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 2.2rem;
+    padding-top: 3%;
+}
+
+/* .img-item {
+    padding-top: 60px;
+    padding-left: 8%;
+
+} */
+
+.botton-item {
+    display: flex;
+    gap: 15px;
+}
+
+button {
+    margin-top: 4%;
+    padding: 17px 22px;
+    border-radius: 12px;
+    background-color: #F1A501;
+    border: none;
+    font-size: 21px;
+    color: #FFFFFF;
+    font-size: Google Sans;
+}
+
+button:hover {
+    background-color: #fae314;
+}
+ h5 {
+    color: #686D77 !important;
+    font-family: poppins;
+    font-size: 19px;
+}
+
+h5 i {
+    color: #DF6951;
+    font-size: 50px;
+    margin-top: 4px;
+    /* margin-right: 18px; */
+} 
+
+/* .gallery-item {
+    text-align: center;
+    padding-top: 9%;
+
+    h6 {
+        color: #5E6282;
+        font-size: 19px;
+        font-family: poppins;
+    }
+
+    h2 {
+        color: #14183E;
+        font-family: Volkhov;
+        font-size: 48px;
+    }
+}
+
+
+.Cards {
+    display: flex;
+    justify-content: space-evenly;
+    height: 600px;
+    padding-top: 1%;
+}
+
+.card-content h4 {
+    padding-top: 5%;
+    font-size: 22px;
+    font-family: Open Sans;
+    color: #1E1D4C;
+    text-align: center;
+
+}
+
+.card-content p {
+    padding-top: 2%;
+    font-family: popppins;
+    color: #5E6282;
+    text-align: center;
+}
+
+#img {}
+
+
+
+.weather {
+    display: flex;
+    justify-content: space-around;
+} */ 
